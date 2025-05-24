@@ -7,7 +7,6 @@ public class Lab096_Interview {
         switch (code){
             default:
                 System.out.println("Hellooooooo");
-                break;
             case 'A':
                 System.out.println("65");
                 break;
