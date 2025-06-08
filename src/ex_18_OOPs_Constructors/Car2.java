@@ -12,8 +12,10 @@ public class Car2 {
     }
 
     Car2(String model_name,int year_created){
+        this("3000");
         this.model = model_name;
         this.year = year_created;
+
     }
 
     Car2(String model_name){
