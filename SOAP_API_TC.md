@@ -1,10 +1,6 @@
-Here is your complete **test case set converted into Markdown format** using a scrollable and copy-friendly GitHub-style table, ready to share with your students:
-
----
-
 ### 📘 Test Cases for `IsValidISBN10` SOAP API
 
-> ✅ **Note**: You can view this table properly in any markdown-supported editor like VSCode, Typora, Obsidian, GitHub, or Notion.
+https://webservices.daehosting.com/services/isbnservice.wso?op=IsValidISBN10
 
 
 | Scenario TID | Test Data        | TestCase Description                               | PreCondition             | TestSteps                                   | Expected Result                                     | Actual Result | Steps to Execute                            | Expected Result                                     | Actual Result | Status        | Executed QA Name | Misc (Comments)                    | Priority | Is Automated |
