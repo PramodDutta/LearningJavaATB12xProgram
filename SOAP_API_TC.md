@@ -6,7 +6,7 @@ Here is your complete **test case set converted into Markdown format** using a s
 
 > ✅ **Note**: You can view this table properly in any markdown-supported editor like VSCode, Typora, Obsidian, GitHub, or Notion.
 
-```markdown
+
 | Scenario TID | Test Data        | TestCase Description                               | PreCondition             | TestSteps                                   | Expected Result                                     | Actual Result | Steps to Execute                            | Expected Result                                     | Actual Result | Status        | Executed QA Name | Misc (Comments)                    | Priority | Is Automated |
 |--------------|------------------|----------------------------------------------------|---------------------------|----------------------------------------------|----------------------------------------------------|----------------|------------------------------------------------|----------------------------------------------------|----------------|----------------|-------------------|-------------------------------------|----------|---------------|
 | TC001        | 0306406152       | Validate a correct ISBN-10 number                 | API is up and running     | Pass 0306406152 in the sISBN field           | Returns true                                      | -              | Send SOAP request with valid ISBN-10        | `<IsValidISBN10Result>true</IsValidISBN10Result>` | -              | Not Executed  | -                 | Standard valid case                | High     | Yes           |
@@ -33,8 +33,4 @@ Here is your complete **test case set converted into Markdown format** using a s
 | TC022        | Extra fields     | Unrelated fields in SOAP request                  | API is up and running     | Add extra XML nodes                          | Should ignore and validate ISBN correctly         | -              | Add `<ExtraTag>Hello</ExtraTag>`            | `<IsValidISBN10Result>true/false</IsValidISBN10Result>`| -              | Not Executed  | -                 | Robustness test                  | Low      | Yes           |
 | TC023        | Concurrent Requests | Multiple valid inputs concurrently           | API is up and running     | Send 50 concurrent requests                  | All return correct results                         | -              | Load test using Postman/JMeter              | All pass consistently                           | -              | Not Executed  | -                 | Performance check                 | Medium   | Yes           |
 | TC024        | Repeated Request | Repeating same ISBN multiple times               | API is up and running     | Call same ISBN 5 times                       | All return same boolean result                     | -              | Repeat same SOAP call                       | Same boolean output                              | -              | Not Executed  | -                 | Idempotency check                 | Medium   | Yes           |
-```
 
----
-
-Would you like a **downloadable `.md` file** of this table too? I can generate it for you!
